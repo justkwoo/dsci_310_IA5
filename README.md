@@ -12,19 +12,17 @@ justkwoo_310_pkg is a project that (describe what it does here).
 
 ## Get started
 
-You can install this package into your preferred Python environment using pip:
+You can install this package from TestPyPI into your preferred Python environment using pip:
 
 ```bash
-$ pip install justkwoo_310_pkg
+$ pip install -i https://test.pypi.org/simple/ justkwoo_310_pkg
 ```
-
-TODO: Add a brief example of how to use the package to this section
 
 To use justkwoo_310_pkg in your code:
 
 ```python
->>> import justkwoo_310_pkg
->>> justkwoo_310_pkg.hello_world()
+>>> from justkwoo_310_pkg.example import add_numbers
+>>> add_numbers(1,2)
 ```
 
 ## Copyright
